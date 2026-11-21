@@ -1,0 +1,33 @@
+# Dataset files - never upload Kaggle data
+data/raw/
+data/processed/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+models/*
+*.joblib
+*.pkl
+*.pickle
+
+# Environment variables and secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
